@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  node-app:
+    build: .
+    environment:
+      - PORT=${PORT}
+      - JWT_SECRET=${JWT_SECRET}
+      - JWT_EXPIRES_IN=${JWT_EXPIRES_IN}
+    ports:
+      - "${PORT}:${PORT}"
