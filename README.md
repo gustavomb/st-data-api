@@ -27,7 +27,7 @@ npm install
 Exportar as variáveis do arquivo `dev.env`:
 ```sh
 set -a
-. ./env.dev
+. ./dev.env
 set +a
 ```
 
